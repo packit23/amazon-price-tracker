@@ -1,4 +1,4 @@
-# Amazon Price Tracker Template
+# Amazon Price Tracker 
 
 This Python script allows users to monitor the price of any Amazon product and send an email alert when the price drops below a specified threshold.
 
@@ -49,10 +49,3 @@ Enter the recipient email address: example@example.com
 Product: WD 4TB My Cloud Home Personal Cloud
 Current Price: $179
 The email has been sent.
-
-## Important Notes
-
-- This script currently supports Gmail by default. If you want to use another email provider, update the SMTP server and port settings in the send_mail() function.
-
--Ensure you are using an app-specific password if two-factor authentication is enabled on your email account.
-
