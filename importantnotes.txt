@@ -1,0 +1,9 @@
+-This script currently supports Gmail by default. If you want to use another email provider, update the SMTP server and port settings in the send_mail() function.
+
+-Ensure you are using an app-specific password if two-factor authentication is enabled on your email account.
+
+-The script assumes that the price displayed on Amazon is a whole number (without decimals). Adjustments may be necessary if prices include cents.
+
+-It’s recommended to use a Virtual Environment to manage dependencies and avoid potential conflicts with other Python projects on your machine.
+
+-Always ensure that the User-Agent header in the requests is up-to-date to avoid issues with Amazon blocking the request.
